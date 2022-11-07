@@ -73,21 +73,9 @@ public function updateCliente($id_Cliente){
             else
             {
                    $this->ClientesM->updateCliente($id_Cliente);
-                   redirect(base_url('index.php/ClienteC/show'),'refresh');
+                   redirect(base_url('index.php/ClientesC/show'),'refresh');
             }
 }
-
-
-
-
-
-
-	
-
-
-
-
-
 
 
 }?>  
