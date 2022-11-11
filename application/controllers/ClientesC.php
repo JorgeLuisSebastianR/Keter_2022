@@ -12,7 +12,6 @@ public function show(){
     $this->load ->view('clientes/principalClientes.php',$data);
     $this->load ->view('headers/footer.php');    
 }
-
 //boton ver
 public function detalleCliente($id_Cliente){
     $this->load->model('ClientesM');
